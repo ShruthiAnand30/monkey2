@@ -96,7 +96,7 @@ function draw() {
 
 function spawnFood() {
   //write code here to spawn the food
-  if (frameCount % 80 === 0) {
+  if (frameCount % 120 === 0) {
     var banana = createSprite(600,250,40,10);
     banana.y = random(120,200);    
     banana.addImage(bananaImage);
